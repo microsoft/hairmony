@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hairmony</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.ico" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <script src="https://kit.fontawesome.com/49f46e7382.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <div class="container is-max-desktop">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-lab-cambridge/">
+                    <img src="img/Microsoft-logo.svg" alt="Mixed Reality & AI Lab – Cambridge" style="height: 1.4rem;">
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-lab-cambridge/">
+                        Mixed Reality & AI
+                    </a>
+                </div>
+                <div class="navbar-end">
+                    <a class="navbar-item" href="https://asia.siggraph.org/2024/">
+                        <img class="is-hidden-touch" src="img/sa-logo-white.png" alt="SIGGRAPH Asia 2024">
+                        <img class="is-hidden-desktop" src="img/sa-logo-black.png" alt="SIGGRAPH Asia 2024">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h1 class="title is-2 has-text-centered">Hairmony</h1>
+            <p class="subtitle is-4 has-text-centered">Fairness-aware hairstyle classification</p>
+            <p class="subtitle is-5 has-text-centered has-text-grey">SIGGRAPH Asia 2024</p>
+            <p class="subtitle is-6 has-text-centered authors" style="line-height: 1.5;">
+                <span><a href="mailto:TODO@microsoft.com">Givi Meishvili</a></span>
+                <span><a href="mailto:TODO@microsoft.com">James Clemoes</a></span>
+                <span><a href="https://chewitt.me/">Charlie&nbsp;Hewitt</a></span>
+                <span><a href="mailto:TODO@microsoft.com">Zafiirah Hosenie</a></span>
+                <span><a href="mailto:TODO@microsoft.com">Xiao-Xian</a></span>
+                <span><a href="mailto:TODO@microsoft.com">Martin de La Gorce</a></span>
+                <span><a href="mailto:TODO@microsoft.com">Tibor Takacs</a></span>
+                <span><a href="mailto:tabaltru@microsoft.com">Tadas&nbsp;Baltru&scaron;aitis</a></span>
+                <span><a href="mailto:TODO@microsoft.com">Antonio Criminisi</a></span>
+                <span><a href="mailto:TODO@microsoft.com">Chyna McRae</a></span>
+                <span><a href="mailto:TODO@microsoft.com">Nina Jablonski</a></span>
+                <span><a href="mailto:TODO@microsoft.com">Marta Wilczkowiak</a></span>
+            </p>
+        </div>
+        <div class="container is-max-desktop has-text-centered mt-5">
+            <a href="TODO" class="button is-rounded is-link is-light mr-2">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>Paper</span>
+            </a>
+            <a href="TODO" class="button is-rounded is-link is-light mr-2">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
+            </a>
+            <a href="https://github.com/microsoft/FaceSynthetics" class="button is-rounded is-link is-light">
+                <span class="icon"><i class="fab fa-github"></i></span>
+                <span>Dataset</span>
+            </a>
+        </div>
+    </section>
+    <section>
+        <div class="container is-max-desktop">
+            <figure class="image is-16by9">
+                <iframe class="has-ratio" width="640" height="360" src="TODO" frameborder="0" allowfullscreen></iframe>
+            </figure>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container is-max-desktop">
+            <h1 class="title is-4">
+                Abstract
+            </h1>
+            <div class="content has-text-justified-desktop">
+                We present a method for prediction of a person's hairstyle from a single image.
+                Despite growing use cases in user digitization and enrollment for virtual experiences, available methods are limited, particularly in the range of hairstyles they can capture.
+                Human hair is extremely diverse and lacks any universally accepted description or categorization, making this a challenging task.
+                Most current methods rely on parametric models of hair at a strand level.
+                These approaches, while very promising, are not yet able to represent short, frizzy, coily hair and gathered hairstyles.
+                We instead choose a classification approach which <i>can</i> represent the diversity of hairstyles required for a truly robust and inclusive system.
+                Previous classification approaches have been restricted by poorly labeled data that lacks diversity, imposing constraints on the usefulness of any resulting enrollment system.
+                We use only synthetic data to train our models. This allows for explicit control of diversity of hairstyle attributes, hair colors, facial appearance, poses, environments and other parameters. It also produces noise-free ground-truth labels.
+                We introduce a novel hairstyle taxonomy developed in collaboration with a diverse group of domain experts which we use to balance our training data, supervise our model, and directly measure fairness.
+                We annotate our synthetic training data and a real evaluation dataset using this taxonomy and release both to enable comparison of future hairstyle prediction approaches.
+                We employ an architecture based on a pre-trained feature extraction network in order to improve generalization of our method to real data and predict taxonomy attributes as an auxiliary task to improve accuracy.
+                Results show our method to be significantly more robust for challenging hairstyles than recent parametric approaches.
+                Evaluation with taxonomy-based metrics also demonstrates the fairness of our method across diverse hairstyles.
+            </div>
+        </div>
+    </section>
+    <section class="section pt-0">
+        <div class="container is-max-desktop">
+            <h1 class="title is-4">
+                BibTeX
+            </h1>
+            <pre>
+@inproceedings{meishvili2024hairmony,
+    title={Hairmony: Fairness-aware hairstyle classification},
+    author={Meishvili, Givi and Clemoes, James and Hewitt, Charlie and Hosenie, Zafiirah and Xian, Xiao and de La Gorce, Martin and Takacs, Tibor and Baltru\v{s}aitis, Tadas and Criminisi, Antonio and McRae, Chyna and Jablonski, Nina and Wilczkowiak, Marta},
+    booktitle={Proceedings of SIGGRAPH Asia},
+    year={2024}
+}</pre>
+        </div>
+    </section>
+    <footer class="footer pb-0">
+        <div class="content has-text-centered pb-5">
+            <p>
+                Work conducted at the <a href=https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-lab-cambridge>Mixed Reality & AI Lab &ndash; Cambridge</a>.<br>
+                <img src="img/Microsoft-logo-only.svg" class="mt-5" alt="Microsoft" style="height: 2rem;">
+            </p>
+        </div>
+        <div class="footer-links content has-text-centered pt-5 has-text-grey-lighter is-size-7">
+            <a href="https://go.microsoft.com/fwlink/?LinkId=521839">Privacy</a>
+            <a href="https://go.microsoft.com/fwlink/?LinkID=206977">Terms of Use</a>
+            <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks">Trademarks</a>
+            <a href="https://microsoft.com">&copy; Microsoft 2024</a>
+        </div>
+    </footer>
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+        }
+    });
+</script>
+
+</html>
