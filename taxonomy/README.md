@@ -1,15 +1,5 @@
 # Hairstyle Taxonomy
 
-<style>
-    table th {
-        min-width: 75px;
-        text-align: center;
-    }
-    table td {
-        text-align: center;
-    }
-</style>
-
 Our hairstyle taxonomy consists of 18 attributes.
 There are ten global attributes which are based on the whole hairstyle, for example the shape of the hairline or surface appearance of the hair.
 The scalp is divided into eight regions and each region is annotated with eight local attributes, such as length and strand styling.
@@ -21,7 +11,7 @@ Below is a graphical representation of the taxonomy.
 ## Global Attributes
 
 | Attribute | Values | | | | | | | |
-|-|-|-|-|-|-|-|-|-|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Bangs Style | None ![none](graphics/ms_bangs_none.jpg) | Straight ![straight](graphics/ms_bangs_straight.jpg) | V-shape ![v](graphics/ms_bangs_vshape.jpg) | U-shape ![u](graphics/ms_bangs_ushape.jpg) | Inverted U ![inverted u](graphics/ms_bangs_invertedushape.jpg) | Inverted V ![inverted v](graphics/ms_bangs_invertedvshape.jpg) | Diagonal R/L ![diag r/l](graphics/ms_bangs_diagonal_toprightobottomleft.jpg) | Diagonal L/R ![diag l/r](graphics/ms_bangs_diagonal_toplefttobottomright.jpg) |
 | Bangs Length | Above ![above](graphics/ms_hairlength_bangs_aboveeyebrows_v02.jpg) | To ![to](graphics/ms_hairlength_bangs_eyebrows_v02.jpg) | Below ![below](graphics/ms_hairlength_bangs_beloweyebrows_v02.jpg) |
 | Accessories | None ![none](graphics/ms_hairaccessories_none.jpg) | Headband ![headband](graphics/ms_hairaccessories_headband.jpg) | Ribbon ![ribbon](graphics/ms_hairaccessories_ribbonsandcords.jpg) | Hairnet ![hairnet](graphics/ms_hairaccessories_hairnet.jpg) | Scrunchy ![scrunchy](graphics/ms_hairaccessories_elastichairtie_scrunchie.jpg) | Comb ![comb](graphics/ms_hairaccessories_comb.jpg) | Clips ![clips](graphics/ms_hairaccessories_clips.jpg) | Beads ![beads](graphics/ms_hairaccessories_beads.jpg) |
@@ -36,7 +26,7 @@ Below is a graphical representation of the taxonomy.
 ## Scalp Regions
 
 | Front | Top | Crown | Nape | Right Side | Right Temple | Left Temple | Left Side |
-|-|-|-|-|-|-|-|-|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | ![front](graphics/ms_region_front.jpg) | ![top](graphics/ms_region_top.jpg) | ![crown](graphics/ms_region_crown.jpg) | ![nape](graphics/ms_region_nape.jpg) | ![right side](graphics/ms_region_sideright.jpg) | ![right temple](graphics/ms_region_templeright.jpg) | ![left side](graphics/ms_region_sideleft.jpg) | ![left temple](graphics/ms_region_templeleft.jpg) |
 
 ## Local Attributes
