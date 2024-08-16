@@ -5,7 +5,17 @@ The repo includes details of the synthetic training dataset, real evaluation dat
 
 ## Taxonomy Definition
 
-TODO short taxonomy description and link to relevant place
+In the paper we introduce a taxonomy for hairstyle characterization aiming to satisfy the following:
+
+- *Completeness*. All human hairstyles are captured to some degree of accuracy.
+- *Fairness*. Differences (inaccuracy) between an actual hairstyle and the taxonomic description are similar across all demographics.
+- *Granularity*. The categories are granular enough to distinguish between the majority of hairstyles.
+- *Simplicity of use*. Diverse users (researchers, groom artists, users of avatars  etc.) can all understand the taxonomy.
+- *Consistency*. A single hairstyle is described by a unique combination of attributes.
+- *Objectivity*. The language refers to physical attributes rather than cultural references and is unambiguous.
+- *Extensibility*. Allowing diverse communities to contribute to continuous taxonomy improvements.
+
+A complete definition of the taxonomy can be found in the [taxonomy](/taxonomy/) folder.
 
 ## Synthetic Training Dataset
 
