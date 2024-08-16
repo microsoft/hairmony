@@ -1,5 +1,15 @@
 # Hairstyle Taxonomy
 
+<style>
+    table th {
+        min-width: 75px;
+        text-align: center;
+    }
+    table td {
+        text-align: center;
+    }
+</style>
+
 Our hairstyle taxonomy consists of 18 attributes.
 There are ten global attributes which are based on the whole hairstyle, for example the shape of the hairline or surface appearance of the hair.
 The scalp is divided into eight regions and each region is annotated with eight local attributes, such as length and strand styling.
