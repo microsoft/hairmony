@@ -10,7 +10,9 @@ Below is a graphical representation of the taxonomy.
 
 ## Global Attributes
 
-| Attribute | Values | | | | | | | |
+Annotated once per hairstyle.
+
+| Attribute | &nbsp;&nbsp;&nbsp;Values&nbsp;&nbsp;&nbsp; | | | | | | | |
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 | Bangs Style | None ![none](graphics/ms_bangs_none.jpg) | Straight ![straight](graphics/ms_bangs_straight.jpg) | V-shape ![v](graphics/ms_bangs_vshape.jpg) | U-shape ![u](graphics/ms_bangs_ushape.jpg) | Inverted U ![inverted u](graphics/ms_bangs_invertedushape.jpg) | Inverted V ![inverted v](graphics/ms_bangs_invertedvshape.jpg) | Diagonal R/L ![diag r/l](graphics/ms_bangs_diagonal_toprightobottomleft.jpg) | Diagonal L/R ![diag l/r](graphics/ms_bangs_diagonal_toplefttobottomright.jpg) |
 | Bangs Length | Above ![above](graphics/ms_hairlength_bangs_aboveeyebrows_v02.jpg) | To ![to](graphics/ms_hairlength_bangs_eyebrows_v02.jpg) | Below ![below](graphics/ms_hairlength_bangs_beloweyebrows_v02.jpg) |
@@ -31,3 +33,15 @@ Below is a graphical representation of the taxonomy.
 
 ## Local Attributes
 
+Annotated once per scalp region for each hairstyle.
+
+| Attribute | &nbsp;&nbsp;&nbsp;Values&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Hair Type | Coily ![coily](graphics/ms_hairtype_coily.jpg) | Curly ![curly](graphics/ms_hairtype_curly.jpg) | Wavy ![wavy](graphics/ms_hairtype_wavy.jpg) | Straight ![straight](graphics/ms_hairtype_straight.jpg) |
+| Strand Styling | None ![none](graphics/ms_strandstyling_none.jpg) | Twists ![twists](graphics/ms_strandstyling_ringletstwists.jpg) | Dreadlocks ![dreadlocks](graphics/ms_strandstyling_dreadlocks.jpg) | Braids ![braids](graphics/ms_strandstyling_braids.jpg) | Other ![other](graphics/ms_strandstyling_other.jpg) |
+| Strand Thickness | Large ![large](graphics/ms_strandstyling_thickness_large.jpg) | Medium ![medium](graphics/ms_strandstyling_thickness_medium.jpg) | Micro ![micro](graphics/ms_strandstyling_thickness_micro.jpg) |
+| Gathered | None ![none](graphics/ms_hairgathered_none.jpg) | Behind-Ear ![behind ear](graphics/ms_hairgathered_hairtuckedbehindear.jpg) | Bun ![bun](graphics/ms_hairgathered_bun_single.jpg) | Buns ![buns](graphics/ms_hairgathered_bun_multiple.jpg) | Ponytail ![ponytail](graphics/ms_hairgathered_ponytail_single.jpg) | Ponytails ![ponytails](graphics/ms_hairgathered_ponytail_multiple.jpg) | On Skin ![on skin](graphics/ms_hairgathered_attachedtoskin.jpg) | Knot ![knot](graphics/ms_hairgathered_knot_single_v02.jpg) | Knots ![knots](graphics/ms_hairgathered_knot_multiple.jpg) | Other ![other](graphics/ms_hairgathered_other.jpg) |
+| Direction | Down ![down](graphics/ms_hairdirection_brusheddown.jpg) | Side ![side](graphics/ms_hairdirection_brushed_swepttoside.jpg) | Up ![up](graphics/ms_hairdirection_brushed_gatheredup.jpg) | Out ![out](graphics/ms_hairdirection_pointingout.jpg) |
+| Length | Bald ![bald](graphics/ms_hairlength_bald.jpg) | Shaved ![shaved](graphics/ms_hairlength_shavedroots.jpg) | Very Short ![very short](graphics/ms_hairlength_veryshort.jpg) | Short ![short](graphics/ms_hairlength_short.jpg) | Ear ![ear](graphics/ms_hairlength_earlength.jpg) | Chin ![chin](graphics/ms_hairlength_chinlength.jpg) | Shoulder ![shoulder](graphics/ms_hairlength_shoulderlength.jpg) | Armpit ![armpit](graphics/ms_hairlength_armpitlength_v02.jpg) | Mid-Back ![mid back](graphics/ms_hairlength_midbacklength_v02.jpg) | Waist ![armpit](graphics/ms_hairlength_waistlength_v02.jpg) |
+| Layering | None ![none](graphics/ms_layering_singlelength.jpg) | Textured ![textured](graphics/ms_layering_textured_v02.jpg) | Taper ![taper](graphics/ms_layering_taper.jpg) |  Fade ![fade](graphics/ms_layering_fade.jpg) |
+| Decoration | None ![none](graphics/ms_decorativepatterns_no.jpg) | Decorated ![dec](graphics/ms_decorativepatterns_yes.jpg) |
