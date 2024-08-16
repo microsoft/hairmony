@@ -10,13 +10,13 @@ Below is a graphical representation of the taxonomy.
 
 ## Global Attributes
 
-| Attribute | Values | | | | | | | | | | |
-|-|-|-|-|-|-|-|-|-|-|-|-|
+| Attribute | Values | | | | | | | |
+|-|-|-|-|-|-|-|-|-|
 | Bangs Style | None ![none](graphics/ms_bangs_none.jpg) | Straight ![straight](graphics/ms_bangs_straight.jpg) | V-shape ![v](graphics/ms_bangs_vshape.jpg) | U-shape ![u](graphics/ms_bangs_ushape.jpg) | Inverted U ![inverted u](graphics/ms_bangs_invertedushape.jpg) | Inverted V ![inverted v](graphics/ms_bangs_invertedvshape.jpg) | Diagonal R/L ![diag r/l](graphics/ms_bangs_diagonal_toprightobottomleft.jpg) | Diagonal L/R ![diag l/r](graphics/ms_bangs_diagonal_toplefttobottomright.jpg) |
 | Bangs Length | Above ![above](graphics/ms_hairlength_bangs_aboveeyebrows_v02.jpg) | To ![to](graphics/ms_hairlength_bangs_eyebrows_v02.jpg) | Below ![below](graphics/ms_hairlength_bangs_beloweyebrows_v02.jpg) |
-| Accessories |
+| Accessories | None ![none](graphics/ms_hairaccessories_none.jpg) | Headband ![headband](graphics/ms_hairaccessories_headband.jpg) | Ribbon ![ribbon](graphics/ms_hairaccessories_ribbonsandcords.jpg) | Hairnet ![hairnet](graphics/ms_hairaccessories_hairnet.jpg) | Scrunchy ![scrunchy](graphics/ms_hairaccessories_elastichairtie_scrunchie.jpg) | Comb ![comb](graphics/ms_hairaccessories_comb.jpg) | Clips ![clips](graphics/ms_hairaccessories_clips.jpg) | Beads ![beads](graphics/ms_hairaccessories_beads.jpg) |
 | Parting | Center ![center](graphics/ms_partinglocation_central.jpg) | Right ![right](graphics/ms_partinglocation_rightside.jpg) | Left ![left](graphics/ms_partinglocation_leftside.jpg) | Diagonal ![diagonal](graphics/ms_partinglocation_diagonal.jpg) | Zig-Zag ![zigzag](graphics/ms_partinglocation_zigzag.jpg) | Other ![other](graphics/ms_partinglocation_other.jpg) |
-| Hairline Shape | Straight | Bell-Shaped | Receding | Widows-Peak | Uneven | Unkown |
+| Hairline Shape | Straight ![straight](graphics/ms_hairline_straight.jpg) | Bell-Shaped ![bell](graphics/ms_hairline_bellshaped.jpg) | Receding ![receding](graphics/ms_hairline_receding_v02.jpg) | Widows-Peak ![widows peak](graphics/ms_hairline_widowspeak.jpg)| Uneven ![uneven](graphics/ms_hairline_uneven.jpg) | Unknown ![unknown](graphics/ms_hairline_idontknow.jpg) |
 | Hairline Position | High ![high](graphics/ms_hairlineposition_high_v02.jpg) | Medium ![medium](graphics/ms_hairlineposition_medium.jpg) | Low ![low](graphics/ms_hairlineposition_low.jpg) |
 | Hairline Visibility | Full ![full](graphics/ms_hairlinevisibility_fully.jpg) | Partial Left ![partial l](graphics/ms_hairlinevisibility_partiallyvisible_rightcovered.jpg) | Partial Right ![partial r](graphics/ms_hairlinevisibility_partiallyvisible_leftcovered.jpg) | None ![partial l](graphics/ms_hairlinevisibility_notvisible.jpg) |
 | Surface | Matte ![matte](graphics/ms_surfaceappearance_matte.jpg) | Shiny ![shiny](graphics/ms_surfaceappearance_shiny.jpg) | Very Shiny ![v shiny](graphics/ms_surfaceappearance_veryshinyoiled.jpg) | Wet ![wet](graphics/ms_surfaceappearance_wetlook.jpg) |
