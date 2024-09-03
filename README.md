@@ -30,7 +30,7 @@ We share the synthetic training images in a multi-part ZIP and hair taxonomy lab
 We share labels for a subset of [FairFace](https://github.com/joojs/fairface).
 
 ### Download real data
-- You will need to obtain a copy of the [FairFace](https://github.com/joojs/fairface0) dataset.
+- You will need to obtain a copy of the [FairFace](https://github.com/joojs/fairface) dataset.
 - Labels: [FairFace hair taxonomy labels (CSV)](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/fairface_taxonomy.csv)
 
 ## Citation
