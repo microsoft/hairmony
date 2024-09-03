@@ -27,7 +27,7 @@ We share the synthetic training images in a multi-part ZIP and hair taxonomy lab
 
 ## Real Evaluation Dataset
 
-We share labels for a subset of [FairFace](https://github.com/joojs/fairface0).
+We share labels for a subset of [FairFace](https://github.com/joojs/fairface).
 
 ### Download real data
 - You will need to obtain a copy of the [FairFace](https://github.com/joojs/fairface0) dataset.
