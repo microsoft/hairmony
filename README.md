@@ -19,11 +19,19 @@ A complete definition of the taxonomy can be found in the [taxonomy](/taxonomy/)
 
 ## Synthetic Training Dataset
 
-TODO summary and download instructions for synthetic dataset
+We share the synthetic training images in a multi-part ZIP and hair taxonomy labels in a CSV with the `image_name` column corresponding to each image file name.
+
+### Download synthetic data
+- Images (multi-part ZIP): TODO
+- Labels: [Synthetic hair taxonomy labels (CSV)](https://facesyntheticspubwedata.blob.core.windows.net/)
 
 ## Real Evaluation Dataset
 
-TODO summary and download instructions for real dataset
+We share labels for a subset of [FairFace](https://github.com/joojs/fairface0).
+
+### Download real data
+- You will need to obtain a copy of the [FairFace](https://github.com/joojs/fairface0) dataset.
+- Labels: [FairFace hair taxonomy labels (CSV)](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/fairface_taxonomy.csv)
 
 ## Citation
 
