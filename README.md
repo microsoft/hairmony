@@ -41,7 +41,7 @@ If you use the taxonomy or datasets in your research, please cite the following 
 @inproceedings{meishvili2024hairmony,
   title={Hairmony: Fairness-aware hairstyle classification},
   author={Meishvili, Givi and Clemoes, James and Hewitt, Charlie and Hosenie, Zafiirah and Xian, Xiao and de La Gorce, Martin and Takacs, Tibor and Baltru\v{s}aitis, Tadas and Criminisi, Antonio and McRae, Chyna and Jablonski, Nina and Wilczkowiak, Marta},
-  booktitle={Proceedings of SIGGRAPH Asia},
-  year={2024}
+  booktitle={SIGGRAPH Asia 2024 Conference Papers (SA Conference Papers '24), December 3-6, Tokyo, Japan},
+  year={2024},
 }
 ```

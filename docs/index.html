@@ -17,10 +17,12 @@
     <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
         <div class="container is-max-desktop">
             <div class="navbar-brand">
-                <a class="navbar-item" href="https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-lab-cambridge/">
+                <a class="navbar-item"
+                    href="https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-lab-cambridge/">
                     <img src="img/Microsoft-logo.svg" alt="Mixed Reality & AI Lab – Cambridge" style="height: 1.4rem;">
                 </a>
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -28,7 +30,8 @@
             </div>
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-start">
-                    <a class="navbar-item" href="https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-lab-cambridge/">
+                    <a class="navbar-item"
+                        href="https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-lab-cambridge/">
                         Mixed Reality & AI
                     </a>
                 </div>
@@ -47,9 +50,12 @@
             <p class="subtitle is-4 has-text-centered">Fairness-aware hairstyle classification</p>
             <p class="subtitle is-5 has-text-centered has-text-grey">SIGGRAPH Asia 2024</p>
             <p class="subtitle is-6 has-text-centered authors" style="line-height: 1.5;">
-                <span><a href="https://gmeishvili.github.io/" class="has-tooltip-bottom" data-tooltip="* denotes equal contribution">Givi&nbsp;Meishvili</a><sup>*</sup></span>
-                <span><a href="mailto:jaclemoe@microsoft.com" class="has-tooltip-bottom" data-tooltip="* denotes equal contribution">James&nbsp;Clemoes</a><sup>*</sup></span>
-                <span><a href="https://chewitt.me/" class="has-tooltip-bottom" data-tooltip="* denotes equal contribution">Charlie&nbsp;Hewitt</a><sup>*</sup></span>
+                <span><a href="https://gmeishvili.github.io/" class="has-tooltip-bottom"
+                        data-tooltip="* denotes equal contribution">Givi&nbsp;Meishvili</a><sup>*</sup></span>
+                <span><a href="mailto:jaclemoe@microsoft.com" class="has-tooltip-bottom"
+                        data-tooltip="* denotes equal contribution">James&nbsp;Clemoes</a><sup>*</sup></span>
+                <span><a href="https://chewitt.me/" class="has-tooltip-bottom"
+                        data-tooltip="* denotes equal contribution">Charlie&nbsp;Hewitt</a><sup>*</sup></span>
                 <span><a href="mailto:zhosenie@microsoft.com">Zafiirah&nbsp;Hosenie</a></span>
                 <span><a href="mailto:xianxiao@microsoft.com">Xiao-Xian</a></span>
                 <span><a href="mailto:madelago@microsoft.com">Martin&nbsp;de&nbsp;La&nbsp;Gorce</a></span>
@@ -62,7 +68,7 @@
             </p>
         </div>
         <div class="container is-max-desktop has-text-centered mt-5">
-            <a href="TODO" class="button is-rounded is-link is-light mr-2">
+            <a class="button is-rounded is-link is-light mr-2" disabled>
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>Paper</span>
             </a>
@@ -94,75 +100,114 @@
             </h1>
             <div class="content has-text-justified-desktop">
                 We present a method for prediction of a person's hairstyle from a single image.
-                Despite growing use cases in user digitization and enrollment for virtual experiences, available methods are limited, particularly in the range of hairstyles they can capture.
-                Human hair is extremely diverse and lacks any universally accepted description or categorization, making this a challenging task.
+                Despite growing use cases in user digitization and enrollment for virtual experiences, available methods
+                are limited, particularly in the range of hairstyles they can capture.
+                Human hair is extremely diverse and lacks any universally accepted description or categorization, making
+                this a challenging task.
                 Most current methods rely on parametric models of hair at a strand level.
-                These approaches, while very promising, are not yet able to represent short, frizzy, coily hair and gathered hairstyles.
-                We instead choose a classification approach which <i>can</i> represent the diversity of hairstyles required for a truly robust and inclusive system.
-                Previous classification approaches have been restricted by poorly labeled data that lacks diversity, imposing constraints on the usefulness of any resulting enrollment system.
-                We use only synthetic data to train our models. This allows for explicit control of diversity of hairstyle attributes, hair colors, facial appearance, poses, environments and other parameters. It also produces noise-free ground-truth labels.
-                We introduce a novel hairstyle taxonomy developed in collaboration with a diverse group of domain experts which we use to balance our training data, supervise our model, and directly measure fairness.
-                We annotate our synthetic training data and a real evaluation dataset using this taxonomy and release both to enable comparison of future hairstyle prediction approaches.
-                We employ an architecture based on a pre-trained feature extraction network in order to improve generalization of our method to real data and predict taxonomy attributes as an auxiliary task to improve accuracy.
-                Results show our method to be significantly more robust for challenging hairstyles than recent parametric approaches.
-                Evaluation with taxonomy-based metrics also demonstrates the fairness of our method across diverse hairstyles.
+                These approaches, while very promising, are not yet able to represent short, frizzy, coily hair and
+                gathered hairstyles.
+                We instead choose a classification approach which <i>can</i> represent the diversity of hairstyles
+                required for a truly robust and inclusive system.
+                Previous classification approaches have been restricted by poorly labeled data that lacks diversity,
+                imposing constraints on the usefulness of any resulting enrollment system.
+                We use only synthetic data to train our models. This allows for explicit control of diversity of
+                hairstyle attributes, hair colors, facial appearance, poses, environments and other parameters. It also
+                produces noise-free ground-truth labels.
+                We introduce a novel hairstyle taxonomy developed in collaboration with a diverse group of domain
+                experts which we use to balance our training data, supervise our model, and directly measure fairness.
+                We annotate our synthetic training data and a real evaluation dataset using this taxonomy and release
+                both to enable comparison of future hairstyle prediction approaches.
+                We employ an architecture based on a pre-trained feature extraction network in order to improve
+                generalization of our method to real data and predict taxonomy attributes as an auxiliary task to
+                improve accuracy.
+                Results show our method to be significantly more robust for challenging hairstyles than recent
+                parametric approaches.
+                Evaluation with taxonomy-based metrics also demonstrates the fairness of our method across diverse
+                hairstyles.
             </div>
         </div>
     </section>
-    <section class="section">
+    <section class="section pt-0">
         <div class="container is-max-desktop">
             <h1 class="title is-4">
                 Hairstyle Taxonomy
             </h1>
             <div class="content has-text-justified-desktop">
-                <img class="separator" src="img/figures/taxonomy.png">
-                <p>Graphical overview of our proposed hair taxonomy consisting of global and regional attributes. Note that some values are not visualized for the 'Gathered' and 'Length' attributes.</p>
-                <p>Our hairstyle taxonomy consists of 18 attributes. 
-                    There are ten global attributes which are based on the whole hairstyle, for example the shape of the hairline or surface appearance of the hair.
-                    The scalp is divided into eight regions and each region is annotated with eight local attributes, such as length and strand styling.
+                <p>Our hairstyle taxonomy consists of 18 attributes.
+                    There are ten global attributes which are based on the whole hairstyle, for example the shape of the
+                    hairline or surface appearance of the hair.
+                    The scalp is divided into eight regions and each region is annotated with eight local attributes,
+                    such as length and strand styling.
                     So in total each hairstyle has 74 taxonomic labels.
-                    While we hope that the taxonomy presented is sufficiently fair, objective and complete, we recognize that it is likely impossible for it to be truly complete.
-                    We therefore encourage future work to extend the taxonomy as required and publish any modifications.</p>
+                    While we hope that the taxonomy presented is sufficiently fair, objective and complete, we recognize
+                    that it is likely impossible for it to be truly complete.
+                    We therefore encourage future work to extend the taxonomy as required and publish any modifications
+                    - full details of the taxonomy can be found <a
+                        href="https://github.com/microsoft/hairmony/tree/main/taxonomy">here</a>.
+                </p>
+                <figure class="ml-0 mr-0">
+                    <img src="img/figures/taxonomy.png">
+                    <figcaption>Graphical overview of our proposed hair taxonomy consisting of global and regional
+                        attributes. Note
+                        that some values are not visualized for the 'Gathered' and 'Length' attributes.</figcaption>
+                </figure>
             </div>
         </div>
     </section>
-    
-    <section class="section">
+
+    <section class="section pt-0">
         <div class="container is-max-desktop">
             <h1 class="title is-4">
                 Hairstyle Classification
             </h1>
             <div class="content has-text-justified-desktop">
-                <img src="img/figures/architecture.png">
-                <p>Training and operating scheme of the proposed model. Given an input image, frozen backbone <b><i>B</i></b> 
-                    produces intermediate features that are later used to produce intermediate representation via shared layer 
-                    <b><i>FC<sub>L</sub></i></b>. Given the output of <b><i>FC<sub>L</sub></i></b>: <i>(i)</i> hairstyle prediction
-                     head <b><i>FC<sub>s</sub></i></b> predicts the final hairstyle and <i>(ii)</i> hairstyle attribute prediction heads <b><i>FC<sub>1</sub></i></b>, 
-                    ..., <b><i>FC<sub>A</sub></i></b> predict taxonomic hairstyle attributes.</p>
+                <p><span style="color: red">TODO Additional text here.</span></p>
+                <figure class="ml-0 mr-0">
+                    <img src="img/figures/architecture.png">
+                    <figcaption>Training and operating scheme of the proposed model. Given an input image we use a frozen
+                        backbone and independent MLP heads to predict hairstyle and taxonomic attributes.</figcaption>
+                    </figcaption>
+                </figure>
             </div>
         </div>
     </section>
 
-    <section class="section">
+    <section class="section pt-0">
         <div class="container is-max-desktop">
             <h1 class="title is-4">
                 Qualitative Results
             </h1>
             <div class="content has-text-justified-desktop" style="align-items: center;">
-                <img src="img/figures/qualitative_results.png">
-                <div style="transform: translate(3%, 0%);">
-                    <img src="img/figures/qualitative_results_header.png" width="90%">
-                </div>
-                <p>Comparison of our method with recent parametric hair prediction approach <cite><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Zheng_HairStep_Transfer_Synthetic_to_Real_Using_Strand_and_Depth_Maps_CVPR_2023_paper.html">HairStep</a></cite>.
-    HairStep performs well for long straight hair (top row), but has a strong bias towards this hair style and type.
-    This results in poor performance for short styles and coily or curly hair types, even if results appear to be of reasonable quality when viewed from the front. While our results provide less direct representation in some cases, they are significantly more robust across diverse hairstyles. 
-    HairStep results are manually aligned to reconstructed face meshes. <cite><a href="https://openaccess.thecvf.com/content/WACV2021/papers/Karkkainen_FairFace_Face_Attribute_Dataset_for_Balanced_Race_Gender_and_Age_WACV_2021_paper.pdf">FairFace</a></cite> images -- CC BY 4.0.</p>
-            </br>
-            <img src="img/figures/more_results.jpg">
-            <img src="img/figures/failures.jpg">
-            <p>Qualitative results for our method on the <cite><a href="https://openaccess.thecvf.com/content/WACV2021/papers/Karkkainen_FairFace_Face_Attribute_Dataset_for_Balanced_Race_Gender_and_Age_WACV_2021_paper.pdf">FairFace</a></cite> evaluation subset. 
-                Bottom row shows failure cases, specifically: missed hair, incorrect hair type/strand styling, 
-                incorrect gathering, incorrect length, hairstyle not in library. <cite><a href="https://openaccess.thecvf.com/content/WACV2021/papers/Karkkainen_FairFace_Face_Attribute_Dataset_for_Balanced_Race_Gender_and_Age_WACV_2021_paper.pdf">FairFace</a></cite> images -- CC BY 4.0.</p>
+                <p><span style="color: red">TODO Additional text here.</span>
+                    HairStep performs well for long straight hair, but has a strong bias towards this hairstyle and type.
+                    This results in poor performance for short styles and coily or curly hair types, even if results
+                    appear to be of reasonable quality when viewed from the front. While our results provide less
+                    direct representation in some cases, they are significantly more robust across diverse hairstyles.
+                </p>
+                <figure class="ml-0 mr-0">
+                    <div class="columns m-0 mb-2 has-text-centered is-mobile is-size-7-touch">
+                        <div class="column p-0">Input</div>
+                        <div class="column p-0">HairStep<br>(strands)</div>
+                        <div class="column p-0">HairStep<br>(front)</div>
+                        <div class="column p-0">HairStep<br>(side)</div>
+                        <div class="column p-0"><b>Ours<br>(front)</b></div>
+                        <div class="column p-0"><b>Ours<br>(side)</b></div>
+                    </div>
+                    <img src="img/figures/qualitative_results.png">
+                    <figcaption>Comparison of our method with recent parametric hair prediction approach <cite><a
+                                href="https://openaccess.thecvf.com/content/CVPR2023/html/Zheng_HairStep_Transfer_Synthetic_to_Real_Using_Strand_and_Depth_Maps_CVPR_2023_paper.html">HairStep</a></cite>.
+                        HairStep results are manually aligned to reconstructed face meshes.</figcaption>
+                </figure>
+                <figure class="ml-0 mr-0">
+                    <img src="img/figures/more_results.jpg">
+                    <img src="img/figures/failures.jpg">
+                    <figcaption>Qualitative results for our method on the <cite><a
+                                href="https://openaccess.thecvf.com/content/WACV2021/papers/Karkkainen_FairFace_Face_Attribute_Dataset_for_Balanced_Race_Gender_and_Age_WACV_2021_paper.pdf">FairFace</a></cite>
+                        evaluation subset.
+                        Bottom row shows failure cases, specifically: missed hair, incorrect hair type/strand styling,
+                        incorrect gathering, incorrect length, hairstyle not in library.</figcaption>
+                </figure>
             </div>
         </div>
     </section>
@@ -176,15 +221,17 @@
 @inproceedings{meishvili2024hairmony,
     title={Hairmony: Fairness-aware hairstyle classification},
     author={Meishvili, Givi and Clemoes, James and Hewitt, Charlie and Hosenie, Zafiirah and Xian, Xiao and de La Gorce, Martin and Takacs, Tibor and Baltru\v{s}aitis, Tadas and Criminisi, Antonio and McRae, Chyna and Jablonski, Nina and Wilczkowiak, Marta},
-    booktitle={Proceedings of SIGGRAPH Asia},
-    year={2024}
+    booktitle={SIGGRAPH Asia 2024 Conference Papers (SA Conference Papers '24), December 3-6, Tokyo, Japan},
+    year={2024},
 }</pre>
         </div>
     </section>
     <footer class="footer pb-0">
         <div class="content has-text-centered pb-5">
             <p>
-                Work conducted at the <a href=https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-lab-cambridge>Mixed Reality & AI Lab &ndash; Cambridge</a>.<br>
+                Work conducted at the <a
+                    href=https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-lab-cambridge>Mixed Reality & AI
+                    Lab &ndash; Cambridge</a>.<br>
                 <img src="img/Microsoft-logo-only.svg" class="mt-5" alt="Microsoft" style="height: 2rem;">
             </p>
         </div>
