@@ -35,7 +35,7 @@ We share labels for a subset of [FairFace](https://github.com/joojs/fairface).
 
 ## Citation
 
-If you use the taxonomy or datasets in your research, please cite the following [paper](TODO):
+If you use the taxonomy or datasets in your research, please cite the following [paper](https://aka.ms/hairmony):
 
 ```bibtex
 @inproceedings{meishvili2024hairmony,
