@@ -37,6 +37,10 @@ We share labels for a subset of [FairFace](https://github.com/joojs/fairface).
 - You will need to obtain a copy of the [FairFace](https://github.com/joojs/fairface) dataset.
 - [Hair Taxonomy Labels](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/fairface_taxonomy.csv)
 
+### Disclaimer
+
+We would like to acknowledge our dataset will not be perfect, both in terms of label accuracy and definitions of labels. We have outlined our method in the paper which is our best effort to achieve the aims set out in "Taxonomy definition". We fully expect the hair taxonomy and labels provided to be a useful starting point for future work and to evolve.
+
 ## Citation
 
 If you use the taxonomy or datasets in your research, please cite the following [paper](https://aka.ms/hairmony):
