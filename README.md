@@ -22,7 +22,7 @@ A complete definition of the taxonomy can be found in the [taxonomy](/taxonomy/)
 We share the synthetic training images in a multi-part ZIP and hair taxonomy labels in a CSV with the `image_name` column corresponding to each image file name.
 
 ### Download synthetic data
-- Images (multi-part ZIP): TODO
+- Images (multi-part ZIP): [Synthetic head hairstyle dataset](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/dataset/)
 - Labels: [Synthetic hair taxonomy labels (CSV)](https://facesyntheticspubwedata.blob.core.windows.net/)
 
 ## Real Evaluation Dataset
