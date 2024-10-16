@@ -72,7 +72,7 @@
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>Paper</span>
             </a>
-            <a href="TODO" class="button is-rounded is-link is-light mr-2">
+            <a href="https://arxiv.org/abs/2410.11528" class="button is-rounded is-link is-light mr-2">
                 <span class="icon"><i class="ai ai-arxiv"></i></span>
                 <span>arXiv</span>
             </a>
@@ -163,22 +163,22 @@
             </h1>
             <div class="content has-text-justified-desktop">
                 <p>We use a convolutional neural network (CNN) trained entirely on synthetic data.
-                    The network is comprised of a frozen backbone that has been pre-trained through self-supervision 
-                    on a large corpus of real images to provide general-purpose visual features, DINOv2 followed by a 
-                    number of fully-connected layers optimized during training, visualized below. We find using a frozen, 
+                    The network is comprised of a frozen backbone that has been pre-trained through self-supervision
+                    on a large corpus of real images to provide general-purpose visual features, DINOv2 followed by a
+                    number of fully-connected layers optimized during training, visualized below. We find using a frozen,
                     pre-trained backbone to be highly beneficial for the task of hairstyle prediction.
-                    Given the relatively small library of synthetic hairstyles, and limited visual quality of synthetic 
-                    images it is very easy for neural networks to over-fit when trained exclusively on our synthetic data. 
-                    High frequency details are also important to determine details of hair type and style, but the domain 
-                    gap between real and synthetic images may hamper the ability of CNNs to learn these details when trained 
-                    only on synthetic data. By using a model pre-trained on real images we minimize the ability of the network to over-fit, 
+                    Given the relatively small library of synthetic hairstyles, and limited visual quality of synthetic
+                    images it is very easy for neural networks to over-fit when trained exclusively on our synthetic data.
+                    High frequency details are also important to determine details of hair type and style, but the domain
+                    gap between real and synthetic images may hamper the ability of CNNs to learn these details when trained
+                    only on synthetic data. By using a model pre-trained on real images we minimize the ability of the network to over-fit,
                     as we only optimize small fully connected layers, and ensure that we are extracting features that generalize to real images.
                     The primary task of our network is hairstyle prediction, formulated as classification task for hairstyles from our synthetic library.
                     We also include an auxiliary task of hairstyle attribute prediction, outputting the taxonomic annotations associated with the hairstyle.
                     Attributes are predicted by dedicated fully-connected heads which take shared features from a common fully-connected layer as input.
-                    This architecture ensures that features from this intermediate layer are informed by attributes that we know are important 
+                    This architecture ensures that features from this intermediate layer are informed by attributes that we know are important
                     (hair type, length, etc.) as determined by the taxonomy, rather than features indirectly inferred from a complex classification task.
-                    The aim of this approach is to prevent 'bad' errors; that is to ensure that even if our method does not predict the perfect style, 
+                    The aim of this approach is to prevent 'bad' errors; that is to ensure that even if our method does not predict the perfect style,
                     it at least predicts a style with matching attributes. A classification-only approach has no concept of this semantic similarity.</p>
                 <figure class="ml-0 mr-0">
                     <img src="img/figures/architecture.png">
@@ -198,11 +198,11 @@
             <div class="content has-text-justified-desktop" style="align-items: center;">
                 <p>
                     We conducted a number of experiments assessing the quality of our method.
-                    As we cannot compare to recent parametric approaches quantitatively without manual labeling of 
-                    generated results with our taxonomy, we provide a qualitative comparison of our method with the 
-                    state-of-the-art method for hairstyle reconstruction, shown in the figure below. 
-                    While our method does not enable direct strand-wise representation, it is far more robust for diverse input hairstyles. 
-                    Existing methods show a strong bias to straight, long hair while our method is able to provide appropriate hairstyle 
+                    As we cannot compare to recent parametric approaches quantitatively without manual labeling of
+                    generated results with our taxonomy, we provide a qualitative comparison of our method with the
+                    state-of-the-art method for hairstyle reconstruction, shown in the figure below.
+                    While our method does not enable direct strand-wise representation, it is far more robust for diverse input hairstyles.
+                    Existing methods show a strong bias to straight, long hair while our method is able to provide appropriate hairstyle
                     predictions for short, frizzy, coily and gathered styles, as well as long, straight hair.
                 </p>
                 <p>
