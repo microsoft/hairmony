@@ -22,20 +22,20 @@ A complete definition of the taxonomy can be found in the [taxonomy](/taxonomy/)
 We share the synthetic training images in a multi-part ZIP and taxonomy attribute and hairstyle labels as CSV files, with the `image_name` column corresponding to each image file name.
 
 - Images
-  - [Part 1](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/dataset/images.z01)
-  - [Part 2](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/dataset/images.z02)
-  - [Part 3](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/dataset/images.z03)
-  - [Part 4](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/dataset/images.z04)
-  - [Part 5](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/dataset/images.zip)
-- [Taxonomy Attribute Labels](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/sx_taxonomy.csv)
-- [Hairstyle Labels](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/image_hairstyle_labels.csv)
+  - [Part 1](https://facesyntheticspubwedata.z6.web.core.windows.net/sga-2024-hairmony/dataset/images.z01)
+  - [Part 2](https://facesyntheticspubwedata.z6.web.core.windows.net/sga-2024-hairmony/dataset/images.z02)
+  - [Part 3](https://facesyntheticspubwedata.z6.web.core.windows.net/sga-2024-hairmony/dataset/images.z03)
+  - [Part 4](https://facesyntheticspubwedata.z6.web.core.windows.net/sga-2024-hairmony/dataset/images.z04)
+  - [Part 5](https://facesyntheticspubwedata.z6.web.core.windows.net/sga-2024-hairmony/dataset/images.zip)
+- [Taxonomy Attribute Labels](https://facesyntheticspubwedata.z6.web.core.windows.net/sga-2024-hairmony/sx_taxonomy.csv)
+- [Hairstyle Labels](https://facesyntheticspubwedata.z6.web.core.windows.net/sga-2024-hairmony/image_hairstyle_labels.csv)
 
 ## Real Evaluation Dataset
 
 We share labels for a subset of [FairFace](https://github.com/joojs/fairface).
 
 - You will need to obtain a copy of the [FairFace](https://github.com/joojs/fairface) dataset.
-- [Hair Taxonomy Labels](https://facesyntheticspubwedata.blob.core.windows.net/sga-2024-hairmony/fairface_taxonomy.csv)
+- [Hair Taxonomy Labels](https://facesyntheticspubwedata.z6.web.core.windows.net/sga-2024-hairmony/fairface_taxonomy.csv)
 
 ## Disclaimer
 
